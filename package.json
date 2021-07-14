@@ -1,6 +1,7 @@
 {
 	"name": "bad-plugin",
 	"displayName": "bad-plugin",
+	"publisher": "fujt",
 	"description": "聊天，强提醒插件",
 	"version": "0.0.1",
 	"engines": {
@@ -36,5 +37,9 @@
 		"mocha": "^8.4.0",
 		"typescript": "^4.3.2",
 		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"socket.io": "^4.1.3",
+		"socket.io-client": "^4.1.3"
 	}
 }
